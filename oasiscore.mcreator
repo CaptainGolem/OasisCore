@@ -1,0 +1,47 @@
+{
+  "mod_elements": [
+    {
+      "name": "Oof",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oof",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oasiscore/models/item/oof.json",
+          "src/main/java/net/mcreator/oasiscore/item/OofItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.oasiscore.oof": "Oof"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "oasiscore",
+    "modName": "OasisCore",
+    "version": "1.0.0",
+    "author": "CaptainGolem, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.oasiscore"
+  },
+  "mcreatorVersion": 202400340615
+}
