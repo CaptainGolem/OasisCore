@@ -10,22 +10,16 @@
         "value": "mutated_forest"
       },
       {
-        "value": "bamboo_jungle"
-      },
-      {
         "value": "grove"
-      },
-      {
-        "value": "jungle"
       },
       {
         "value": "mushroom_fields"
       },
       {
-        "value": "mutated_plains"
+        "value": "lush_caves"
       },
       {
-        "value": "meadow"
+        "value": "bamboo_jungle"
       }
     ],
     "worldGenType": "End like gen",
@@ -47,7 +41,7 @@
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "portalFrame": {
-      "value": "Blocks.PUMPKIN"
+      "value": "CUSTOM:MemeStone"
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -68,7 +62,7 @@
       }
     ],
     "texture": "engreenedfeather",
-    "portalTexture": "memoriaportal",
+    "portalTexture": "minecraft:green_stained_glass",
     "enablePortal": true
   }
 }

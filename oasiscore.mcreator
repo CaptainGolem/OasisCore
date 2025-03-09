@@ -130,6 +130,40 @@
           }
         ]
       }
+    },
+    {
+      "name": "MemoriaSoyjak",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memoria_soyjak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oasiscore/client/renderer/MemoriaSoyjakRenderer.java",
+          "src/main/java/net/mcreator/oasiscore/entity/MemoriaSoyjakEntity.java",
+          "src/main/resources/data/oasiscore/neoforge/biome_modifier/memoria_soyjak_biome_modifier.json",
+          "src/main/resources/assets/oasiscore/models/item/memoria_soyjak_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "MemoriaSoyjakNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memoria_soyjak_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/oasiscore/procedures/MemoriaSoyjakNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -162,8 +196,10 @@
   "language_map": {
     "en_us": {
       "item.oasiscore.memoria": "Memoria Portal Feather",
+      "item.oasiscore.memoria_soyjak_spawn_egg": "Memoria Soyjak Spawn Egg",
       "item.oasiscore.oof": "Oof",
       "block.oasiscore.meme_stone": "Meme Stone",
+      "entity.oasiscore.memoria_soyjak": "Memoria Soyjak",
       "subtitles.memoriaambient": "epic ambient music"
     }
   },

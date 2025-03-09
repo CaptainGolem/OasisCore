@@ -23,36 +23,36 @@ public class AmbiencePlayerProcedure {
 		if (entity.getData(OasiscoreModVariables.PLAYER_VARIABLES).untilmusic <= 1 && entity.getData(OasiscoreModVariables.PLAYER_VARIABLES).untilmusic > 0.75) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.NEUTRAL, 1, 1);
+					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.MUSIC, (float) 0.7, 1);
 				} else {
-					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.NEUTRAL, 1, 1, false);
+					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.MUSIC, (float) 0.7, 1, false);
 				}
 			}
 		}
 		if (entity.getData(OasiscoreModVariables.PLAYER_VARIABLES).untilmusic <= 0.75 && entity.getData(OasiscoreModVariables.PLAYER_VARIABLES).untilmusic > 0.5) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.NEUTRAL, 1, 1);
+					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.MUSIC, (float) 0.7, 1);
 				} else {
-					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.NEUTRAL, 1, 1, false);
+					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.MUSIC, (float) 0.7, 1, false);
 				}
 			}
 		}
 		if (entity.getData(OasiscoreModVariables.PLAYER_VARIABLES).untilmusic <= 0.5 && entity.getData(OasiscoreModVariables.PLAYER_VARIABLES).untilmusic > 0.25) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.NEUTRAL, 1, 1);
+					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.MUSIC, (float) 0.7, 1);
 				} else {
-					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.NEUTRAL, 1, 1, false);
+					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.MUSIC, (float) 0.7, 1, false);
 				}
 			}
 		}
 		if (entity.getData(OasiscoreModVariables.PLAYER_VARIABLES).untilmusic <= 0.25 && entity.getData(OasiscoreModVariables.PLAYER_VARIABLES).untilmusic >= 0) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.NEUTRAL, 1, 1);
+					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.MUSIC, (float) 0.7, 1);
 				} else {
-					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.NEUTRAL, 1, 1, false);
+					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("oasiscore:memoriaambient")), SoundSource.MUSIC, (float) 0.7, 1, false);
 				}
 			}
 		}

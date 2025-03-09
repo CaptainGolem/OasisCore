@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "oasiscore:block/memoriaportal",
-    "portal": "oasiscore:block/memoriaportal"
+    "particle": "minecraft:block/green_stained_glass",
+    "portal": "minecraft:block/green_stained_glass"
   },
   "elements": [
     {

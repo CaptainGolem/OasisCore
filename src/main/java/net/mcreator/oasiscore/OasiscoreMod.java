@@ -22,6 +22,7 @@ import net.mcreator.oasiscore.network.OasiscoreModVariables;
 import net.mcreator.oasiscore.init.OasiscoreModTabs;
 import net.mcreator.oasiscore.init.OasiscoreModSounds;
 import net.mcreator.oasiscore.init.OasiscoreModItems;
+import net.mcreator.oasiscore.init.OasiscoreModEntities;
 import net.mcreator.oasiscore.init.OasiscoreModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -45,7 +46,7 @@ public class OasiscoreMod {
 		OasiscoreModBlocks.REGISTRY.register(modEventBus);
 
 		OasiscoreModItems.REGISTRY.register(modEventBus);
-
+		OasiscoreModEntities.REGISTRY.register(modEventBus);
 		OasiscoreModTabs.REGISTRY.register(modEventBus);
 		OasiscoreModVariables.ATTACHMENT_TYPES.register(modEventBus);
 

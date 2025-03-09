@@ -6,3 +6,15 @@
 /tp 4000 100 1200
 /locate biome minecraft:bamboo_jungle
 /tp 234234 100 2342
+/kill Dev
+/tick rate 2000
+/tick query
+/tick rate 20
+/tick rate 2000
+/tick rate 20
+/tick rate 2000
+/tick rate 20
+/gamemode creative
+/give Dev oasiscore:meme_stone 64
+/tick rate 2000
+/tick rate 20

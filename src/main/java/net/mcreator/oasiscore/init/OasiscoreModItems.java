@@ -7,6 +7,7 @@ package net.mcreator.oasiscore.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,7 @@ public class OasiscoreModItems {
 	public static final DeferredItem<Item> OOF = REGISTRY.register("oof", OofItem::new);
 	public static final DeferredItem<Item> MEMORIA = REGISTRY.register("memoria", MemoriaItem::new);
 	public static final DeferredItem<Item> MEME_STONE = block(OasiscoreModBlocks.MEME_STONE);
+	public static final DeferredItem<Item> MEMORIA_SOYJAK_SPAWN_EGG = REGISTRY.register("memoria_soyjak_spawn_egg", () -> new DeferredSpawnEggItem(OasiscoreModEntities.MEMORIA_SOYJAK, -1, -6710887, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

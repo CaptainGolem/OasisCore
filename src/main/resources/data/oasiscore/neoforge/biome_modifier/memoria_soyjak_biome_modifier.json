@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "spawners": {
+    "type": "oasiscore:memoria_soyjak",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 5
+  }
+}
