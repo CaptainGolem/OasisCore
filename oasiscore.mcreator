@@ -71,8 +71,7 @@
       "~CUSTOM:MemeStone"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:MemeStone",
-      "~Blocks.STONE#0"
+      "~CUSTOM:MemeStone"
     ]
   },
   "tab_element_order": {},
