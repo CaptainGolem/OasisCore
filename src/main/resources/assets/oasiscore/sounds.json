@@ -1,0 +1,11 @@
+{
+  "memoriaambient": {
+    "subtitle": "subtitles.memoriaambient",
+    "sounds": [
+      {
+        "name": "oasiscore:rick_astley_-_never_gonna_give_you_up___epic_orchestra",
+        "stream": false
+      }
+    ]
+  }
+}

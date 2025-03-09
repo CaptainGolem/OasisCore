@@ -62,10 +62,94 @@
           "src/main/resources/data/oasiscore/recipe/memoria_portal_lighter_recipe.json"
         ]
       }
+    },
+    {
+      "name": "AmbienceTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambience_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oasiscore/procedures/AmbienceTimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmbiencePlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambience_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oasiscore/procedures/AmbiencePlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
-  "sound_elements": [],
+  "variable_elements": [
+    {
+      "name": "untilmusic",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "memoriaambient",
+      "files": [
+        "rick_astley_-_never_gonna_give_you_up___epic_orchestra"
+      ],
+      "category": "ambient",
+      "subtitle": "epic ambient music"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MemeStone"
@@ -79,7 +163,8 @@
     "en_us": {
       "item.oasiscore.memoria": "Memoria Portal Feather",
       "item.oasiscore.oof": "Oof",
-      "block.oasiscore.meme_stone": "Meme Stone"
+      "block.oasiscore.meme_stone": "Meme Stone",
+      "subtitles.memoriaambient": "epic ambient music"
     }
   },
   "foldersRoot": {

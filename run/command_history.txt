@@ -5,3 +5,4 @@
 /tp 1000 100 1200
 /tp 4000 100 1200
 /locate biome minecraft:bamboo_jungle
+/tp 234234 100 2342
