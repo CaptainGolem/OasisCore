@@ -1,0 +1,74 @@
+{
+  "_fv": 69,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "grove"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "mushroom_fields"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "meadow"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:MemeStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -3800833,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.PUMPKIN"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 10,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Memoria Portal Feather",
+    "igniterRarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "texture": "engreenedfeather",
+    "portalTexture": "memoriaportal",
+    "enablePortal": true
+  }
+}

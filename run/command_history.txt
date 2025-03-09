@@ -1,0 +1,7 @@
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/locate biome minecraft:flower_forest
+/tp 1000 100 1200
+/tp 4000 100 1200
+/locate biome minecraft:bamboo_jungle

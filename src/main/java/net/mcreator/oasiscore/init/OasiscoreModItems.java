@@ -6,15 +6,25 @@ package net.mcreator.oasiscore.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.oasiscore.item.OofItem;
+import net.mcreator.oasiscore.item.MemoriaItem;
 import net.mcreator.oasiscore.OasiscoreMod;
 
 public class OasiscoreModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(OasiscoreMod.MODID);
 	public static final DeferredItem<Item> OOF = REGISTRY.register("oof", OofItem::new);
+	public static final DeferredItem<Item> MEMORIA = REGISTRY.register("memoria", MemoriaItem::new);
+	public static final DeferredItem<Item> MEME_STONE = block(OasiscoreModBlocks.MEME_STONE);
+
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "oasiscore:meme_stone",
+    "minecraft:stone"
+  ]
+}

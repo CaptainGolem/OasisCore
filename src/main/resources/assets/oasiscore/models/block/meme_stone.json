@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oasiscore:block/memestone",
+    "up": "oasiscore:block/memestone",
+    "north": "oasiscore:block/memestone",
+    "east": "oasiscore:block/memestone",
+    "south": "oasiscore:block/memestone",
+    "west": "oasiscore:block/memestone",
+    "particle": "oasiscore:block/memestone"
+  },
+  "render_type": "solid"
+}

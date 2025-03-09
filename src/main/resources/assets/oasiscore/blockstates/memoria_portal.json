@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "oasiscore:block/memoria_portal_ew"
+    },
+    "axis=x": {
+      "model": "oasiscore:block/memoria_portal_ns"
+    }
+  }
+}

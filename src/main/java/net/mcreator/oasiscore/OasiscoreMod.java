@@ -18,7 +18,9 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.oasiscore.init.OasiscoreModTabs;
 import net.mcreator.oasiscore.init.OasiscoreModItems;
+import net.mcreator.oasiscore.init.OasiscoreModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -38,7 +40,11 @@ public class OasiscoreMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 
+		OasiscoreModBlocks.REGISTRY.register(modEventBus);
+
 		OasiscoreModItems.REGISTRY.register(modEventBus);
+
+		OasiscoreModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
