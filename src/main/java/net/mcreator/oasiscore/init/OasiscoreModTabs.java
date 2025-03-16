@@ -24,6 +24,7 @@ public class OasiscoreModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(OasiscoreModItems.MEMORIA_SOYJAK_SPAWN_EGG.get());
+			tabData.accept(OasiscoreModItems.RICK_ASTLEY_BOSS_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

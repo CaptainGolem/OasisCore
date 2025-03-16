@@ -1,4 +1,17 @@
 {
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-09 15:17:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2025-03-09 15:18:58 +0700",
+      "minecraft:snowy_plains": "2025-03-09 15:17:56 +0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-03-09 15:20:32 +0700"
@@ -35,12 +48,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-03-09 15:17:55 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-03-09 15:20:32 +0700"
@@ -59,13 +66,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:sunflower_plains": "2025-03-09 15:18:58 +0700",
-      "minecraft:snowy_plains": "2025-03-09 15:17:56 +0700"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2025-03-09 15:20:32 +0700"
@@ -75,6 +75,12 @@
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-03-09 15:20:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-03-16 09:56:27 +0700"
     },
     "done": true
   },

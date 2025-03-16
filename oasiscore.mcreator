@@ -164,6 +164,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "RickAstleyBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rick_astley_boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oasiscore/entity/RickAstleyBossEntity.java",
+          "src/main/java/net/mcreator/oasiscore/client/renderer/RickAstleyBossRenderer.java",
+          "src/main/resources/assets/oasiscore/models/item/rick_astley_boss_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -197,10 +211,12 @@
     "en_us": {
       "item.oasiscore.memoria": "Memoria Portal Feather",
       "item.oasiscore.memoria_soyjak_spawn_egg": "Memoria Soyjak Spawn Egg",
+      "entity.oasiscore.rick_astley_boss": "Rickius Astius",
       "item.oasiscore.oof": "Oof",
       "block.oasiscore.meme_stone": "Meme Stone",
       "entity.oasiscore.memoria_soyjak": "Memoria Soyjak",
-      "subtitles.memoriaambient": "epic ambient music"
+      "subtitles.memoriaambient": "epic ambient music",
+      "item.oasiscore.rick_astley_boss_spawn_egg": "Rickius Astius Spawn Egg"
     }
   },
   "foldersRoot": {
