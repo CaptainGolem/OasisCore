@@ -1,0 +1,4 @@
+#Enables 3D chunk debugging.
+use3dChunkDebugging = true
+#Enables MTG banners.
+useMTGBanners = true

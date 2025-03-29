@@ -1,0 +1,13 @@
+==== Connector Mixin Patch Audit Summary ====
+Successful: 1
+Partial: 0
+Failed: 0
+Success rate: 100.00%        Accuracy: 100.00%
+=============================================
+
+Mixin method com/ishland/c2me/notickvd/mixin/MixinWorld modifyLeastStatus(Lnet/minecraft/server/level/FullChunkStatus;)Lnet/minecraft/server/level/FullChunkStatus;
+  >> Using org.sinytra.adapter.patch.transformer.dynfix.DynFixSplitMethod
+     - Adjusting split method target to markAndNotifyBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;II)V
+  >> Using org.sinytra.adapter.patch.transformer.operation.ModifyInjectionTarget
+     - Change mixin target to [markAndNotifyBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;II)V]
+

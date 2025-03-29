@@ -16,6 +16,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.oasiscore.entity.RickAstleyBossEntity;
 import net.mcreator.oasiscore.entity.MemoriaSoyjakEntity;
 import net.mcreator.oasiscore.OasiscoreMod;
 
@@ -24,6 +25,10 @@ public class OasiscoreModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, OasiscoreMod.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<MemoriaSoyjakEntity>> MEMORIA_SOYJAK = register("memoria_soyjak",
 			EntityType.Builder.<MemoriaSoyjakEntity>of(MemoriaSoyjakEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<RickAstleyBossEntity>> RICK_ASTLEY_BOSS = register("rick_astley_boss",
+			EntityType.Builder.<RickAstleyBossEntity>of(RickAstleyBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
 
@@ -36,10 +41,12 @@ public class OasiscoreModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		MemoriaSoyjakEntity.init(event);
+		RickAstleyBossEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(MEMORIA_SOYJAK.get(), MemoriaSoyjakEntity.createAttributes().build());
+		event.put(RICK_ASTLEY_BOSS.get(), RickAstleyBossEntity.createAttributes().build());
 	}
 }

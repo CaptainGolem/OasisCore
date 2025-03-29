@@ -178,6 +178,100 @@
           "src/main/resources/assets/oasiscore/models/item/rick_astley_boss_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "IAmSpeed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_am_speed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oasiscore/procedures/IAmSpeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RickAstleyBeacon",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rick_astley_beacon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oasiscore/models/block/rick_astley_beacon.json",
+          "src/main/resources/assets/oasiscore/models/item/rick_astley_beacon.json",
+          "src/main/java/net/mcreator/oasiscore/block/RickAstleyBeaconBlock.java",
+          "src/main/resources/assets/oasiscore/blockstates/rick_astley_beacon.json",
+          "src/main/resources/data/oasiscore/loot_table/blocks/rick_astley_beacon.json"
+        ]
+      }
+    },
+    {
+      "name": "RickAstleyBeaconOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rick_astley_beacon_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oasiscore/procedures/RickAstleyBeaconOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RickAstleyBeaconOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rick_astley_beacon_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oasiscore/procedures/RickAstleyBeaconOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -214,6 +308,7 @@
       "entity.oasiscore.rick_astley_boss": "Rickius Astius",
       "item.oasiscore.oof": "Oof",
       "block.oasiscore.meme_stone": "Meme Stone",
+      "block.oasiscore.rick_astley_beacon": "Rick Astley Beacon",
       "entity.oasiscore.memoria_soyjak": "Memoria Soyjak",
       "subtitles.memoriaambient": "epic ambient music",
       "item.oasiscore.rick_astley_boss_spawn_egg": "Rickius Astius Spawn Egg"

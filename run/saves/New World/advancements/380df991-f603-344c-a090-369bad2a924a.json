@@ -1,88 +1,249 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-03-09 15:17:55 +0700"
+      "unlock_right_away": "2025-03-29 10:24:21 +0700"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:sunflower_plains": "2025-03-09 15:18:58 +0700",
-      "minecraft:snowy_plains": "2025-03-09 15:17:56 +0700",
-      "minecraft:lush_caves": "2025-03-09 22:29:12 +0700",
-      "minecraft:bamboo_jungle": "2025-03-09 22:28:59 +0700"
+      "minecraft:taiga": "2025-03-29 10:24:22 +0700",
+      "minecraft:lush_caves": "2025-03-29 10:25:28 +0700",
+      "minecraft:bamboo_jungle": "2025-03-29 10:25:36 +0700"
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/oak_slab": {
+  "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "has_pumpkin": "2025-03-29 10:24:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_sign": {
+  "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "has_pumpkin": "2025-03-29 10:24:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_trapdoor": {
+  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "in_water": "2025-03-29 10:26:48 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_fence_gate": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "in_water": "2025-03-29 10:26:48 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
+  "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "in_water": "2025-03-29 10:26:48 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_door": {
+  "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "in_water": "2025-03-29 10:26:48 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/stick": {
+  "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "in_water": "2025-03-29 10:26:48 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_stairs": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "in_water": "2025-03-29 10:26:48 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_fence": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "in_water": "2025-03-29 10:26:48 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/barrel": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "in_water": "2025-03-29 10:26:48 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_button": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_planks": "2025-03-09 15:20:32 +0700"
+      "in_water": "2025-03-29 10:26:48 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-03-29 10:28:45 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-29 10:28:45 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-03-29 10:28:45 +0700"
+    },
+    "done": true
+  },
+  "logical_iframes:root": {
+    "criteria": {
+      "root": "2025-03-29 10:28:46 +0700"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2025-03-29 10:28:46 +0700"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2025-03-29 10:28:46 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/fir_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/umbran_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/maple_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/dead_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/magic_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/redwood_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/hellbark_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/jacaranda_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/mahogany_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/empyreal_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/pine_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 10:30:00 +0700"
+    },
+    "done": true
+  },
+  "fishofthieves:root": {
+    "criteria": {
+      "in_water": "2025-03-29 10:38:41 +0700"
     },
     "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
-      "killed_something": "2025-03-09 22:28:25 +0700"
+      "killed_something": "2025-03-29 10:40:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-03-29 10:47:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-03-29 10:47:54 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/food/rabbit_stew_from_toadstool": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-03-29 10:47:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-03-29 10:47:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_rabbit": "2025-03-29 10:47:56 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-03-29 11:04:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-03-29 11:04:49 +0700"
     },
     "done": true
   },

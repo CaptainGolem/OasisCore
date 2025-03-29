@@ -1,8 +1,11 @@
 {
   "item.oasiscore.memoria": "Memoria Portal Feather",
   "item.oasiscore.memoria_soyjak_spawn_egg": "Memoria Soyjak Spawn Egg",
+  "entity.oasiscore.rick_astley_boss": "Rickius Astius",
   "item.oasiscore.oof": "Oof",
   "block.oasiscore.meme_stone": "Meme Stone",
+  "block.oasiscore.rick_astley_beacon": "Rick Astley Beacon",
   "entity.oasiscore.memoria_soyjak": "Memoria Soyjak",
-  "subtitles.memoriaambient": "epic ambient music"
+  "subtitles.memoriaambient": "epic ambient music",
+  "item.oasiscore.rick_astley_boss_spawn_egg": "Rickius Astius Spawn Egg"
 }

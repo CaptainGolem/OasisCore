@@ -75,7 +75,7 @@ public class RickAstleyBossEntity extends Monster {
 			public void start() {
 				LivingEntity livingentity = RickAstleyBossEntity.this.getTarget();
 				Vec3 vec3d = livingentity.getEyePosition(1);
-				RickAstleyBossEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 2);
+				RickAstleyBossEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 4);
 			}
 
 			@Override
@@ -87,12 +87,12 @@ public class RickAstleyBossEntity extends Monster {
 					double d0 = RickAstleyBossEntity.this.distanceToSqr(livingentity);
 					if (d0 < 64) {
 						Vec3 vec3d = livingentity.getEyePosition(1);
-						RickAstleyBossEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 2);
+						RickAstleyBossEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 4);
 					}
 				}
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1.6, 20) {
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 3.2, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = RickAstleyBossEntity.this.getRandom();
@@ -102,7 +102,7 @@ public class RickAstleyBossEntity extends Monster {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 2.4, false) {
 			@Override
 			protected boolean canPerformAttack(LivingEntity entity) {
 				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
@@ -175,14 +175,14 @@ public class RickAstleyBossEntity extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 800);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 4);
+		builder = builder.add(Attributes.MAX_HEALTH, 400);
 		builder = builder.add(Attributes.ARMOR, 30);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 6);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 64);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 128);
 		builder = builder.add(Attributes.STEP_HEIGHT, 4);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 4);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
+		builder = builder.add(Attributes.FLYING_SPEED, 4);
 		return builder;
 	}
 }

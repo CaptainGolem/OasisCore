@@ -1,0 +1,6 @@
+#Determines how many chunk sections each thread generates for biome generation.
+#Range: > 1
+biomeChunkSectionsPerThread = 8
+#Determines how many chunk sections each thread generates for noise generation.
+#Range: > 1
+noiseChunkSectionsPerThread = 8
