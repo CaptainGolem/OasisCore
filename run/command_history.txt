@@ -18,3 +18,6 @@
 /give Dev oasiscore:meme_stone 64
 /tick rate 2000
 /tick rate 20
+/summon minecraft:iron_golem
+/tp 10000 135 -40000
+/time set day
